@@ -2,12 +2,12 @@ body {
 	overflow-x: hidden;
 }
 
-.heroImage {
+/* .heroImage {
 	background-image: url("../assets/heroImage.webp");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+} */
 
 .heroText {
 	padding: 100px 0;

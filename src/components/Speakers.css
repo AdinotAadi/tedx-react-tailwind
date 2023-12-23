@@ -1,0 +1,10 @@
+body {
+	overflow-x: hidden;
+}
+
+.backdrop {
+	background-image: url("../assets/BGGR.webp");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

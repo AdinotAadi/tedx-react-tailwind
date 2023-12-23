@@ -26,7 +26,7 @@ const NavBar = () => {
 	];
 
 	return (
-		<div className="flex justify-between items-center w-full h-20 px-4 bg-black fixed lg:px-60 z-10 font-int">
+		<div className="flex justify-between items-center w-screen h-20 px-4 bg-black fixed lg:px-60 z-10 font-int">
 			<div>
 				<img src={tedxLogo} className="logo" alt="TEDx Logo" />
 			</div>
@@ -36,13 +36,13 @@ const NavBar = () => {
 						key={id}
 						className="px-4 cursor-pointer capitalize text-white hover:text-red-400 duration-200"
 					>
-						<Link to={link} smooth duration={500}>
+						<Link to={link} smooth duration={200}>
 							{text}
 						</Link>
 					</li>
 				))}
 				<li className="px-4 cursor-pointer highlightsBtn">
-					<Link to="view" smooth duration={500}>
+					<Link to="view" smooth duration={200}>
 						View Highlights
 					</Link>
 				</li>
@@ -54,7 +54,7 @@ const NavBar = () => {
 				{nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 			</div>
 			{nav && (
-				<ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-white">
+				<ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-screen h-screen bg-black text-white">
 					{links.map(({ id, link, text }) => (
 						<li
 							key={id}
@@ -64,7 +64,7 @@ const NavBar = () => {
 								onClick={() => setNav(!nav)}
 								to={link}
 								smooth
-								duration={500}
+								duration={200}
 							>
 								{text}
 							</Link>

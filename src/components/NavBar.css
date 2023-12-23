@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 .logo {
 	width: 150px;
 	height: auto;
