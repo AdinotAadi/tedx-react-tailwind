@@ -1,4 +1,18 @@
 .logo {
-	width: 120px;
+	width: 150px;
 	height: auto;
+}
+
+.highlightsBtn a {
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #c00;
+	color: white;
+	border-radius: 30px;
+	transition: background-color 0.5s ease;
+}
+
+.highlightsBtn a:hover {
+	color: #c00;
+	background-color: #1b1e1f;
 }
