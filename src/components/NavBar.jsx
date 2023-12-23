@@ -26,7 +26,7 @@ const NavBar = () => {
 	];
 
 	return (
-		<div className="flex justify-between items-center w-full h-20 px-4 bg-black fixed lg:px-60">
+		<div className="flex justify-between items-center w-full h-20 px-4 bg-black fixed lg:px-60 z-10 font-int">
 			<div>
 				<img src={tedxLogo} className="logo" alt="TEDx Logo" />
 			</div>
@@ -41,7 +41,6 @@ const NavBar = () => {
 						</Link>
 					</li>
 				))}
-				{/* Apply the highlightsBtn class to the "View Highlights" button */}
 				<li className="px-4 cursor-pointer highlightsBtn">
 					<Link to="view" smooth duration={500}>
 						View Highlights
