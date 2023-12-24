@@ -26,7 +26,7 @@ const NavBar = () => {
 	];
 
 	return (
-		<div className="flex justify-between items-center w-screen h-20 px-4 lg:opacity-75 bg-black fixed lg:px-60 z-10 font-int">
+		<div className="flex justify-between items-center w-screen h-20 px-4 bg-black fixed lg:px-60 z-10 font-int">
 			<div>
 				<img src={tedxLogo} className="logo" alt="TEDx Logo" />
 			</div>
