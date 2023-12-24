@@ -10,17 +10,17 @@ const NavBar = () => {
 	const links = [
 		{
 			id: 1,
-			link: "speakers",
+			link: "speakersSection",
 			text: "Speakers",
 		},
 		{
 			id: 2,
-			link: "schedule",
+			link: "scheduleSection",
 			text: "Schedule",
 		},
 		{
 			id: 3,
-			link: "partners",
+			link: "partnersSection",
 			text: "Partners",
 		},
 	];
@@ -42,9 +42,13 @@ const NavBar = () => {
 					</li>
 				))}
 				<li className="px-4 cursor-pointer highlightsBtn">
-					<Link to="view" smooth duration={200}>
+					<a
+						href="https://www.instagram.com/tedxxie/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						View Highlights
-					</Link>
+					</a>
 				</li>
 			</ul>
 			<div
@@ -70,10 +74,14 @@ const NavBar = () => {
 							</Link>
 						</li>
 					))}
-					<li className="px-4 cursor-pointer highlightsBtn">
-						<Link onClick={() => setNav(!nav)} to="view" smooth duration={200}>
+					<li className="px-4 py-4 cursor-pointer highlightsBtn font-int text-2xl">
+						<a
+							href="https://www.instagram.com/tedxxie/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							View Highlights
-						</Link>
+						</a>
 					</li>
 				</ul>
 			)}

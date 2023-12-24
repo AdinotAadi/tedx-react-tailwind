@@ -43,7 +43,7 @@ const Speakers = () => {
 	];
 	return (
 		<div
-			className="relative h-fit w-screen bg-cover bg-center bg-no-repeat"
+			className="speakersSection relative h-fit w-screen bg-cover bg-center bg-no-repeat"
 			style={{ backgroundImage: `url(${backgroundImage})` }}
 		>
 			<div className="flex flex-col items-center">
