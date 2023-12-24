@@ -8,3 +8,35 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.heroText {
+	padding: 100px 0;
+	text-align: center;
+	font-family: "Teko", sans-serif;
+	font-size: 50px;
+}
+
+.speakers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.speaker {
+	width: calc(33.33% - 20px);
+	margin: 10px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 640px) {
+	.speakers {
+		flex-direction: column;
+	}
+	.speaker {
+		width: 100%;
+	}
+}
