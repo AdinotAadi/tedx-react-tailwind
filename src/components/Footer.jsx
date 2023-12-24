@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className="flex justify-around items-center h-24 text-white bg-black">
+		<footer className="flex justify-around items-center h-24 text-white bg-black px-10 w-screen">
 			<p className="footerText text-center">
 				This independent TEDx event is operated under license from TED.{" "}
 				<span> </span>

@@ -3,7 +3,7 @@ import "./Info.css";
 
 const Info = () => {
 	return (
-		<div className="info flex flex-col p-20 text-white text-justify">
+		<div className="info flex flex-col p-10 lg:p-20 text-white text-justify w-screen">
 			<div className="QA mb-8">
 				<p className="question text-red-500 font-bold">What is TEDx?</p>
 				<p className="answer">
